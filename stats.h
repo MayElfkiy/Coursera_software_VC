@@ -18,9 +18,12 @@
  * @date <Add date >
  *
  */
+
+
+/////////hehehehehehehehheheeheheh some mumbo JUUUUUUUMMMBBOOOO
 #ifndef __STATS_H__
 #define __STATS_H__
-
+int check_change();
 /* Add Your Declarations and Function Comments here */ 
 int find_mean(char *arr_ptr, int arr_length);
 int find_median(char *arr_ptr, int arr_length);
