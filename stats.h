@@ -22,7 +22,13 @@
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
-
+int find_mean(char *arr_ptr, int arr_length);
+int find_median(char *arr_ptr, int arr_length);
+int sort_array(char *arr_ptr, int arr_length);
+int print_statistics(int mean, int median, int max, int min);
+int print_array(char *arr_ptr, int arr_length);
+int find_maximum(char *arr_ptr, int arr_length);
+int find_minimum(char *arr_ptr, int arr_length);
 /**
  * @brief <Add Brief Description of Function Here>
  *
@@ -35,6 +41,81 @@
  *
  * @return <Add Return Informaiton here>
  */
-
+/******************************************************************************
+ * Function: find_mean
+ * Description:
+ *     This function takes a set of numbers and performs finds the mean of
+ *     of the set.
+ * Parameters:
+ *     int * arr_ptr: Pointer to a data set(array)
+ *     int arr_length: Number of items in data set(array)
+ * Return: 
+ *     Average of the numbers provided.
+ *****************************************************************************/
+/******************************************************************************
+ * Function: sort_array
+ * Description:
+ *     This function takes a set of numbers and sorts it from least to
+ *     greatest.
+ * Parameters:
+ *     int * arr_ptr: Pointer to a data set(array)
+ *     int arr_length: Number of items in data set(array)
+ * Return: 
+ *     Sorted array.
+ *****************************************************************************/
+/******************************************************************************
+ * Function: find_median
+ * Description:
+ *     This function takes a set of numbers and finds the median of
+ *     of the set.
+ * Parameters:
+ *     int * arr_ptr: Pointer to a data set(array)
+ *     int arr_length: Number of items in data set(array)
+ * Return: 
+ *     median of the numbers provided.
+ *****************************************************************************/
+/******************************************************************************
+ * Function: find_maximum
+ *     This function takes a set of numbers and finds the maximum of
+ *     of the set.
+ * Parameters:
+ *     int * arr_ptr: Pointer to a data set (array)
+ *     int arr_length: Number of items in data set (array)
+ * Return: 
+ *     maximum number in the given set
+ *****************************************************************************/
+/******************************************************************************
+ * Function: find_minimum
+ * Description:
+ *     This function takes a set of numbers and finds the minimum of
+ *     of the set.
+ * Parameters:
+ *     int * arr_ptr: Pointer to a data set(array)
+ *     int arr_length: Number of items in data set(array)
+ * Return: 
+ *    minuimum number in the given set
+ *****************************************************************************/
+/******************************************************************************
+ * Function: print_array
+ * Description:
+ *     This function takes a set of numbers and prints the members
+ *     
+ * Parameters:
+ *     int * arr_ptr: Pointer to a data set(array)
+ *     int arr_length: Number of items in data set(array)
+ * Return: 
+ *    void
+ *****************************************************************************/
+/******************************************************************************
+ * Function: print_statistics
+ * Description:
+ *     This function takes a set of numbers and prints the statistics like mean,
+ *     median, max, min of that set
+ * Parameters:
+ *     int * arr_ptr: Pointer to a data set(array)
+ *     int arr_length: Number of items in data set(array)
+ * Return: 
+ *    void
+ *****************************************************************************/
 
 #endif /* __STATS_H__ */

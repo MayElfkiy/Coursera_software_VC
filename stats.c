@@ -34,6 +34,10 @@ void main() {
                               200, 122, 150, 90,   92,  87, 177, 244,
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
+  int average=0;
+  int i=0;
+  int max=0;
+  int min=0;
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
@@ -41,3 +45,10 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+int find_mean(char *arr_ptr, int arr_length){}
+int find_median(char *arr_ptr, int arr_length){}
+int sort_array(char *arr_ptr, int arr_length){}
+int print_statistics(int mean, int median, int max, int min){}
+int print_array(char *arr_ptr, int arr_length){}
+int find_maximum(char *arr_ptr, int arr_length){}
+int find_minimum(char *arr_ptr, int arr_length){}
