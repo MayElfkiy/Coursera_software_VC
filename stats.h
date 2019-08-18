@@ -23,11 +23,11 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 /* Add Your Declarations and Function Comments here */ 
-int find_mean(unsigned char *arr_ptr, int arr_length);
-int find_median(unsigned char *arr_ptr, int arr_length);
+float find_mean(unsigned char *arr_ptr, int arr_length);
+float find_median(unsigned char *arr_ptr, int arr_length);
 int sort_array(unsigned char *arr_ptr, int arr_length);
-int print_statistics(int mean, int median, int max, int min);
-int print_array(unsigned char *arr_ptr, int arr_length);
+void print_statistics(float mean, float median, int max, int min);
+void print_array(unsigned char *arr_ptr, int arr_length);
 int find_maximum(unsigned char *arr_ptr, int arr_length);
 int find_minimum(unsigned char *arr_ptr, int arr_length);
 /**
